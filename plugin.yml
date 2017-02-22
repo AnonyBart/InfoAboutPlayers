@@ -1,0 +1,35 @@
+name: InfoAboutPlayers
+version: 2.5
+description: This plugin is a FREE plugin, called InfoAboutPlayers, made by the Developer on Spigot 'Bart_'.
+author: Bart_
+authors: [Bart_]
+website: https://www.spigotmc.org/members/bart_.25718/
+
+main: bart_.spigot.main.Main
+database: false
+
+commands:
+   infoname:
+     description: info about a player, input is a name.
+     permission: info.player
+     aliases: [info]
+     usage: To view info about a player use /<command> [playername].
+   infoip:
+     description: info about a player, input is a ip.
+     permission: info.player
+     aliases: [info]
+     usage: To view info about a player use /<command> [playername].
+   infouuid:
+     description: info about a player, input is a UUID.
+     permission: info.player
+     aliases: [info]
+     usage: To view info about a player use /<command> [playername].
+
+permissions:
+   info.*:
+     description: Gives access to all info commands
+     children:
+       info.player: true
+   info.player:
+     description: Allows you to view info about a player
+     default: op

@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="InfoAboutPlayers:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InfoAboutPlayers_jar</output-path>
+    <root id="archive" name="InfoAboutPlayers.jar">
+      <element id="module-output" name="InfoAboutPlayers" />
+      <element id="file-copy" path="$USER_HOME$/Desktop/mysql-connector-java-5.1.39/Vault.jar" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
